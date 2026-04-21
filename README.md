@@ -30,27 +30,27 @@ Craftify-India/
 
 git clone https://github.com/The-AradhyaSingh/craftify-india.git
 
-2. Open the Project
+##2. Open the Project
 .Go to the project folder
 .Open index.html in your browser
 
-🧑‍💻 Technologies Used
-.HTML5
-.CSS3 (Flexbox & Grid)
-.JavaScript (Vanilla)
+##🧑‍💻 Technologies Used
+-HTML5
+-CSS3 (Flexbox & Grid)
+-JavaScript (Vanilla)
 
-🛒 How It Works
-.Browse handcrafted products
-.Click "Add to Cart" to add items
-.Cart updates dynamically
-.Smooth scrolling navigation for sections
+##🛒 How It Works
+-Browse handcrafted products
+-Click "Add to Cart" to add items
+-Cart updates dynamically
+-Smooth scrolling navigation for sections
 
-🎯 Future Improvements
-.Backend integration (Node.js / PHP)
-.Payment gateway system
-.User authentication (Login/Signup)
-.Product detail pages
-.Admin panel/dashboard
+##🎯 Future Improvements
+-Backend integration (Node.js / PHP)
+-Payment gateway system
+-User authentication (Login/Signup)
+-Product detail pages
+-Admin panel/dashboard
 
 📧 Contact
 
