@@ -28,7 +28,7 @@ Craftify-India/
 
 ### 1. Clone the Repository
 
-git clone https://github.com/your-username/craftify-india.git
+git clone https://github.com/The-AradhyaSingh/craftify-india.git
 
 2. Open the Project
 .Go to the project folder
