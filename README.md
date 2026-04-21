@@ -30,8 +30,8 @@ Craftify-India/
 ## 🚀 Getting Started
 
 ### 1. Download / Clone
-
-git clone https://github.com/your-username/craftify-india.git
+git clone https://github.com/The-AradhySingh/craftify-india.git
+cd craftify-india
 
 ### 2. Run Project
 
