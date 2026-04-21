@@ -31,7 +31,7 @@ Craftify-India/
 
 ### 1. Download / Clone
 git clone https://github.com/The-AradhySingh/craftify-india.git
-cd craftify-india
+
 
 ### 2. Run Project
 
