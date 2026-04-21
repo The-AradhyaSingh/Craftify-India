@@ -20,7 +20,10 @@ local artisans and eco-friendly items.
 
 ## 📁 Project Structure
 
-Craftify-India/ │ ├── index.html ├── style.css └── README.md
+Craftify-India/
+├── index.html
+├── style.css
+└── README.md
 
 ------------------------------------------------------------------------
 
