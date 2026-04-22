@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craftify India - Handcrafted Products Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <nav>
+    <div class="logo">🛍️ Craftify India</div>
+
+    <!-- MENU BUTTON -->
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <!-- MENU -->
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">Cart (0)</a></li>
+    </ul>
+</nav>
+
+<!-- OVERLAY -->
+<div class="overlay" onclick="toggleMenu()"></div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Discover Handcrafted Excellence</h1>
+            <p>Support local artisans with our premium handmade products. From soaps to furniture, every piece tells a story.</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="products" class="products-section">
+        <h2 class="section-title">Our Handcrafted Collections</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-image">🧼</div>
+                <div class="product-info">
+                    <h3 class="product-title">Handmade Soap & Skincare</h3>
+                    <p class="product-price">₹50 - ₹55</p>
+                    <button class="buy-button" onclick="addToCart('Handmade Soap & Skincare', 12.99)">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">🥖</div>
+                <div class="product-info">
+                    <h3 class="product-title">Artisan Bakery Products</h3>
+                    <p class="product-price">₹100 - ₹150</p>
+                    <button class="buy-button" onclick="addToCart('Artisan Bakery Products', 8.99)">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">💍</div>
+                <div class="product-info">
+                    <h3 class="product-title">Handcrafted Jewelry</h3>
+                    <p class="product-price">₹199 - ₹1999</p>
+                    <button class="buy-button" onclick="addToCart('Handcrafted Jewelry', 29.99)">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">👗</div>
+                <div class="product-info">
+                    <h3 class="product-title">Handmade Clothing</h3>
+                    <p class="product-price">₹2999 - ₹3999</p>
+                    <button class="buy-button" onclick="addToCart('Handmade Clothing', 49.99)">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">👜</div>
+                <div class="product-info">
+                    <h3 class="product-title">Eco Paper Bags</h3>
+                    <p class="product-price">₹155 - ₹299</p>
+                    <button class="buy-button" onclick="addToCart('Eco Paper Bags', 4.99)">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">🥨</div>
+                <div class="product-info">
+                    <h3 class="product-title">Gourmet Snacks</h3>
+                    <p class="product-price">₹99 - ₹149</p>
+                    <button class="buy-button" onclick="addToCart('Gourmet Snacks', 6.99)">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">🕯️</div>
+                <div class="product-info">
+                    <h3 class="product-title">Handmade Candles</h3>
+                    <p class="product-price">₹30 - ₹50</p>
+                    <button class="buy-button" onclick="addToCart('Handmade Candles', 14.99)">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">🪑</div>
+                <div class="product-info">
+                    <h3 class="product-title">Artisan Furniture</h3>
+                    <p class="product-price">₹4999 - ₹5999</p>
+                    <button class="buy-button" onclick="addToCart('Artisan Furniture', 99.99)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2 class="section-title" style="color: #333;">Why Choose Craftify India ?</h2>
+        <div class="features-grid">
+            <div class="feature-item">
+                <div class="feature-icon">✨</div>
+                <h3>100% Handcrafted</h3>
+                <p>Every product is made with love by skilled artisans</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">🌿</div>
+                <h3>Natural Materials</h3>
+                <p>Eco-friendly and sustainable materials only</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">🚚</div>
+                <h3>Fast Shipping</h3>
+                <p>Delivered to your door in 3-5 business days</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">💝</div>
+                <h3>Perfect Gifts</h3>
+                <p>Unique items that show you care</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+    <div class="footer-container">
+
+        <!-- OWNER PROFILE -->
+        <div class="owner-box">
+            <img src="owner.jpg" alt="Owner Photo" class="owner-img">
+            
+        </div>
+
+        <!-- CONTACT -->
+        <div class="footer-info">
+            <h3>Aradhya Singh</h3>
+            <p>BBA 1st Year</p>
+            <p><strong>Business:</strong> Craftify India</p>
+            <p><strong>Email:</strong> hello@craftifyindia.com</p>
+            
+        </div>
+
+    </div>
+
+    <p class="copyright">
+        &copy; 2026 Craftify India. All rights reserved.
+    </p>
+</footer>
+
+    <script>
+        let cart = [];
+        let total = 0;
+
+        function addToCart(productName, price) {
+            cart.push({name: productName, price: price});
+            total += price;
+            updateCart();
+            alert(`${productName} added to cart!`);
+        }
+
+        function updateCart() {
+            const cartCount = document.querySelector('a[href="#"]');
+            if (cartCount) {
+                cartCount.textContent = `Cart (${cart.length})`;
+            }
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        function toggleMenu() {
+    const nav = document.getElementById("navLinks");
+    const overlay = document.querySelector(".overlay");
+
+    nav.classList.toggle("active");
+    overlay.classList.toggle("active");
+}
+    </script>
+</body>
+</html>
